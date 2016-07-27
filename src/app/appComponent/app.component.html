@@ -1,0 +1,8 @@
+<h1 class='jumbotron red'>Application {{item.greeting || "..."}}</h1>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let repo of item.repos">
+    <span class="glyphicon glyphicon-star"></span>
+    {{repo.name}}
+  </li>
+</ul>
+<two #item><two>

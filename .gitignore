@@ -1,0 +1,8 @@
+dist/
+node_modules/
+typings/
+src/**/*.bundle.js
+src/styles/css
+src/app/**/*.js
+src/app/**/*.js.map
+js-gen/
